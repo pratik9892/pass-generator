@@ -35,8 +35,8 @@ function App() {
 
   return (
     <>
-      <div className=" flex items-center justify-center w-full h-screen bg-gradient-to-r from-sky-400 to-cyan-300 ">
-        <div className="sm:w-1/2 sm:h-[550px] backdrop-blur-xl bg-white/30  rounded-lg  flex px-6 justify-center flex-col gap-10 w-full h-[650px] mx-4 sm:border-gray-600 sm:border-2">
+      <div className=" flex items-center justify-center w-full h-screen bg-gradient-to-r from-sky-400 to-cyan-300 bg-cover" >
+        <div className="sm:w-1/2 sm:h-[550px] backdrop-blur-xl bg-white/30  rounded-lg  flex px-6 justify-center flex-col gap-10 w-full h-[650px]  sm:border-gray-600 sm:border-2">
           <div className=' py-6'>
             <h1 className="md:text-4xl text-center uppercase text-black font-mono text-6xl">
               Password Generater
@@ -59,7 +59,7 @@ function App() {
               COPY
             </button>
           </div>
-          <div className='flex items-start sm:items-center justify-between  gap-10 flex-col sm:flex-row bg-white rounded-xl px-4 py-6 border-gray-500 border-2'>
+          <div className='flex items-start sm:items-center justify-between  gap-10 flex-col md:flex-row bg-white rounded-xl px-4 py-6 border-gray-500 border-2'>
             <div className='flex items-center gap-4'>
               <input 
               type="range"
